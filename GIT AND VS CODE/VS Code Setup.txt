@@ -1,0 +1,66 @@
+Git/VS Code Setup
+
+---
+
+### 🧠 What Went Wrong
+1. **Git doesn’t know who you are** — you haven’t set your name and email yet
+2. **You tried to push a branch (`main`) that doesn’t exist yet**
+3. **You already added the remote origin, so re-adding it caused an error**
+
+---
+
+### ✅ Fix It in 3 Steps
+
+#### **Step 1: Set Your Identity**
+Run these commands in your terminal (replace with your actual name and email):
+
+```bash
+git config --global user.name "Maryam Agbalaya"
+git config --global user.email "your.email@example.com"
+```
+
+This sets your identity for all future commits.
+
+---
+
+#### **Step 2: Create Your First Commit Properly**
+If you haven’t added any files yet, do this:
+
+```bash
+echo "# Jasmine-Blog" >> README.md
+git add README.md
+git commit -m "first commit"
+```
+
+If you already did that, skip to step 3.
+
+---
+
+#### **Step 3: Push to GitHub**
+Now push your code:
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+If you get an error saying the remote already exists, that’s fine — it just means you added it earlier.
+
+---
+
+### 💡 Bonus Tip
+To check your current branch name, run:
+
+```bash
+git branch
+```
+
+If it says something like `* master`, you need to rename it to `main` before pushing:
+
+```bash
+git branch -M main
+```
+
+---
+
+Let me know if you want to add a `.gitignore`, write a README, or make your repo look professional on GitHub. You're doing great!

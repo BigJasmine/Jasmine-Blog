@@ -1,0 +1,23 @@
+
+---
+
+### ✏️ How to Edit Files Directly on GitHub
+
+1. Go to your repository on [GitHub](https://github.com)
+2. Click on the file you want to edit (e.g. `index.html`, `README.md`)
+3. Click the **pencil icon** (🖉) in the top right corner of the file view
+4. Make your changes in the editor
+5. Scroll down and add a **commit message** (e.g. “Update homepage layout”)
+6. Choose:
+   - **Commit directly to the `main` branch** (for quick edits)
+   - Or **create a new branch and pull request** (for collaborative changes)
+7. Click **Commit changes**
+
+---
+
+### 🧠 Things to Keep in Mind
+- This is great for small edits, like fixing typos or updating documentation
+- For larger changes or testing code, VS Code is still the better environment
+- If you edit on GitHub and then pull in VS Code later, your local copy will update to match
+
+---

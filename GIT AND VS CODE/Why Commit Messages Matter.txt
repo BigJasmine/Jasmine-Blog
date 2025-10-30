@@ -1,0 +1,35 @@
+A commit message is like a **diary entry for your code** — it explains *what you changed* and *why you changed it* at a specific point in time.
+
+---
+
+### 🧠 Why Commit Messages Matter
+
+- 🧭 **Track your progress**: Each commit is a snapshot of your project. The message tells you what that snapshot includes.
+- 🧑‍💻 **Help your future self**: When you revisit your code weeks later, a good message reminds you what you did and why.
+- 🤝 **Collaborate smoothly**: If you're working with others (or even just showing your work), clear messages make it easy to follow your thought process.
+- 🧪 **Debug faster**: If something breaks, commit messages help you trace back to the change that caused it.
+
+---
+
+### ✍️ What Makes a Good Commit Message?
+
+- **Short and clear** (ideally under 50 characters)
+- Written in the **present tense**, like a command:
+  - ✅ `Add contact form to homepage`
+  - ✅ `Fix broken image link`
+  - ✅ `Update README with setup instructions`
+
+---
+
+### 🧩 Example Workflow
+
+```bash
+git add .
+git commit -m "Add blog.html and link to index"
+git push
+```
+
+This tells Git (and anyone reading your repo):  
+> “I added a new blog page and connected it to the homepage.”
+
+---

@@ -1,0 +1,32 @@
+Duplicate or experiment with a file **directly in GitHub** without opening VS Code. 
+
+Here's how to do it using GitHub’s web interface:
+
+---
+
+### ✏️ Duplicate a File on GitHub Without VS Code
+
+#### ✅ Option A: Manual Copy via GitHub Editor
+1. Go to your repo on [GitHub](https://github.com)
+2. Click on the file you want to duplicate (e.g. `index.html`)
+3. Click the **pencil icon** (🖉) to open the editor
+4. Select all the code (`Ctrl + A`) → Copy (`Ctrl + C`)
+5. Go back to the repo homepage
+6. Click **“Add file” → “Create new file”**
+7. Name it something like `index-test.html`
+8. Paste the copied code (`Ctrl + V`)
+9. Add a commit message (e.g. “Create test version of index.html”)
+10. Click **Commit changes**
+
+---
+
+#### ✅ Option B: Use GitHub’s Branching System (Optional)
+If you want to isolate your changes:
+1. Create a new branch from the main page: click **“main” → “New branch”**
+2. Switch to that branch
+3. Follow the same steps above to create or edit files
+4. You can later merge it into `main` or keep it separate
+
+---
+
+This lets you experiment, document, or test new layouts without touching your original `index.html`. 

@@ -1,0 +1,44 @@
+automate Git workflow using VS Code’s GUI buttons**, so you don’t need to type commands every time:
+
+---
+
+## 🧠 Prerequisite: Git Must Be Initialized
+If you’ve already run `git init` and connected to GitHub, you’re good to go. Otherwise, I can help you set that up.
+
+---
+
+## ✅ Step-by-Step: Use VS Code’s GUI to Push Changes
+
+### 🔃 1. Open the Source Control Panel
+- Click the **Source Control icon** (🔃) on the left sidebar
+- You’ll see a list of changed files
+
+---
+
+### 📝 2. Stage and Commit Your Changes
+- Type a **commit message** at the top (e.g. “Add new layout to blog.html”)
+- Click the **✓ Commit** button below the message box
+
+---
+
+### 🚀 3. Push to GitHub
+- Click the **… menu** (three dots) in the Source Control panel
+- Choose **Push**
+- VS Code will push your committed changes to GitHub
+
+If it’s your first push, it may ask you to sign in or confirm the remote. Once done, it remembers your settings.
+
+---
+
+### 🔄 4. Pull Changes (If You Edited on GitHub)
+- Click the **… menu** again
+- Choose **Pull** to sync changes from GitHub to VS Code
+
+---
+
+### 🧩 Optional: Add Files Without Terminal
+- Right-click in the Explorer sidebar → **New File** or **New Folder**
+- Save your changes
+- Go to Source Control → Commit → Push
+
+---

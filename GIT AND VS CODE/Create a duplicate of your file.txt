@@ -1,0 +1,34 @@
+Here’s how to **create a duplicate of your `index.html` file** in VS Code, step by step — so you can experiment without touching the original:
+
+---
+
+### 🧩 Step-by-Step: Duplicate `index.html` in VS Code
+
+#### ✅ Option A: Using File Explorer (Sidebar)
+1. In VS Code, **right-click** on `index.html` in the sidebar
+2. Select **“Copy”**
+3. Right-click again in the same folder → choose **“Paste”**
+4. VS Code will create a copy named `index copy.html` (or similar)
+5. **Rename it** to something meaningful:
+   - `index-test.html`
+   - `index-v2.html`
+   - `index-dev.html`
+
+---
+
+#### ✅ Option B: Manual Copy
+1. Open `index.html`
+2. Select all (`Ctrl + A`) → Copy (`Ctrl + C`)
+3. Create a new file: `File → New File`
+4. Paste (`Ctrl + V`)
+5. Save as `index-test.html` in the same folder
+
+---
+
+### 🧠 Why This Works
+- Keeps your original `index.html` untouched
+- Lets you test new layouts, styles, or scripts
+- You can link to this test file from your main site or just use it privately
+
+---
+
