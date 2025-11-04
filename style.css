@@ -1,0 +1,15 @@
+.form {
+    background-color: skyblue;
+    color: black;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

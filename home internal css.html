@@ -1,40 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Homepage</title>
-    </head>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Homepage</title>
+
+    <!-- Internal CSS -->
+    <!-- Element/Class/id Selector -->
     <style>
         body {
-            width: inherit;
+            background-color: pink;
+            color: darkblue;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            border: 1px solid brown;
+            border-radius: 30px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .first-heading {
+            color: red;
+            font-size: 20px;
+        }
+
+        .second-heading {
+            color: green;
+            font-size: 30px;
+        }
+
+        #first-paragraph {
+            color: blueviolet;
+            font-size: 24px;
+            font-weight: 900;
         }
     </style>
-    <body bgcolor="skyblue">
-        <!-- Inline CSS -->
-         <div style="width: 300px; height: 300px; border: 1px solid red; border-radius: 100%;">
-             Hello World
-         </div>
+</head>
 
-        <img src="./images/bird.jpg"  />
-        
-        <h1>This is my Homepage</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum recusandae cumque vitae possimus architecto obcaecati soluta mollitia? Repellat asperiores porro blanditiis labore accusantium ipsam vero nam quisquam hic voluptatem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, nostrum blanditiis! Officia laborum optio vel maiores? Odit accusamus molestiae eius beatae praesentium laudantium provident, rem iste quasi tempore culpa reiciendis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, sequi sunt quia fugit delectus, nostrum repudiandae accusantium ea voluptates facilis laborum obcaecati quas illum tempora dolor a, porro dignissimos ducimus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi atque numquam eveniet recusandae, distinctio, minima magni dolorem animi, magnam voluptas ducimus necessitatibus aspernatur. Similique beatae corrupti numquam placeat, odit harum!</p>
+<body>
+    <!-- Inline CSS -->
+    <div style="width: 300px; height: 300px; border: 1px solid red; border-radius: 50%;">
+        Hello World
+    </div>
 
-        <h2>This is a sub heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptas deserunt hic rem possimus quis at itaque cumque repudiandae aut, nobis facilis aliquam? Culpa modi ipsa aut vitae, inventore ipsam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, tempore corrupti saepe neque iure nemo ea, facilis velit quidem quibusdam accusamus? Aspernatur quo illo odio nobis eligendi dolor, magnam illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores natus aperiam magnam quasi officia voluptatum optio voluptates exercitationem eligendi nostrum, rem dolorum quia commodi amet! Corrupti commodi amet deserunt dignissimos.</p>
-        <a href="https://youtube.com" target="_blank">Visit this</a>
-        <button>Read more</button>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zdpxBdtBL4w?si=P6p5GGALJ3rfEeBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
-        <video src="./videos/Forest 1.mp4" autoplay loop controls width="200" height="200">
-        </video>
-        
-        user first Name
-        user last Name
-        user age
-        user email
-        user password
-        user gender
-        user country
-        <!-- <input type="button" value="button" />
+    <!-- Element Selector -->
+    <img src="./images/bird.jpg" />
+
+    <img src="https://i.imghippo.com/files/scNM5683GmE.jpg" />
+
+    <!-- id selector -->
+    <h1>This is my Homepage</h1>
+    <p id="first-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum recusandae
+        cumque vitae possimus architecto obcaecati soluta mollitia? Repellat asperiores porro blanditiis labore
+        accusantium ipsam vero nam quisquam hic voluptatem. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Delectus, nostrum blanditiis! Officia laborum optio vel maiores? Odit accusamus molestiae eius beatae
+        praesentium laudantium provident, rem iste quasi tempore culpa reiciendis? Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Quae, sequi sunt quia fugit delectus, nostrum repudiandae accusantium ea
+        voluptates facilis laborum obcaecati quas illum tempora dolor a, porro dignissimos ducimus! Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Sequi atque numquam eveniet recusandae, distinctio, minima magni dolorem
+        animi, magnam voluptas ducimus necessitatibus aspernatur. Similique beatae corrupti numquam placeat, odit harum!
+    </p>
+
+    <!-- Internal CSS -->
+    <!-- Class Selector -->
+
+    <h2 class="first-heading">This is a sub heading</h2>
+    <h2 class="second-heading">This is another sub heading</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptas deserunt hic rem possimus quis at
+        itaque cumque repudiandae aut, nobis facilis aliquam? Culpa modi ipsa aut vitae, inventore ipsam. Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Cumque, tempore corrupti saepe neque iure nemo ea, facilis velit
+        quidem quibusdam accusamus? Aspernatur quo illo odio nobis eligendi dolor, magnam illum? Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Asperiores natus aperiam magnam quasi officia voluptatum optio voluptates
+        exercitationem eligendi nostrum, rem dolorum quia commodi amet! Corrupti commodi amet deserunt dignissimos.</p>
+    <!-- Class Selector -->
+    <h3 class="second-heading">This is a sub sub heading</h3>
+    <h4 class="fits-heading">This is h4 heading</h4>
+    <a href="https://youtube.com" target="_blank">Visit this</a>
+    <button>Read more</button><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zdpxBdtBL4w?si=P6p5GGALJ3rfEeBr"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"<br>
+    <video src="./videos/Forest 1.mp4" autoplay loop controls width="500" height="500">
+    </video>
+
+    user first Name
+    user last Name
+    user age
+    user email
+    user password
+    user gender
+    user country
+    <!-- <input type="button" value="button" />
         <input type="checkbox" />
         <input type="color" />
         <input type="date" />
@@ -49,37 +109,57 @@
         <input type="password" />
         <input type="radio" />
         <input type="range" /> -->
-        <!-- This is my form -->
-        <form>
+    <!-- This is my form -->
+    <form class="form">
+        <div class="input-group">
             <label>First Name</label>
             <input type="text" /><br>
+        </div>
+        <div class="input-group">
             <label>Last Name</label>
             <input type="text" /><br>
+        </div>
+        <div class="input-group">
             <label>Age</label>
             <input type="number" /><br>
+        </div>
+        <div class="input-group">
             <label>Email</label>
             <input type="email" /><br>
+        </div>
+        <div class="input-group">
             <label>Password</label>
             <input type="password" /><br>
+        </div>
+        <div class="input-group">
             <label>Gender</label>
             <input type="radio" value="Male">
+        </div>
+        <div class="input-group">
             <label>Male</label>
             <input type="radio" value="Female">
             <label>Female</label><br>
+        </div>
+        <div class="input-group">
             <label>Country</label>
-            <select>
-                <option>Egypt</option>
-                <option>Ghana</option>
-                <option>Kenya</option>
-                <option>Mozambique</option>
-                <option>Nigeria</option>
-                <option>South Africa</option>
-                <option>Uganda</option>
-                <option>Zambia</option>
-            </select>
+        <select>
+            <option>Egypt</option>
+            <option>Ghana</option>
+            <option>Kenya</option>
+            <option>Mozambique</option>
+            <option>Nigeria</option>
+            <option>South Africa</option>
+            <option>Uganda</option>
+            <option>Zambia</option></select>
+        ><br />
+        <div class="input-group">
             <label>Message</label>
-            <textarea></textarea>
-            <button type="submit">Submit Form</button>
-        </form>
-    </body>
+            <textarea></textarea><br>
+        </div>
+        <div class="input-group">
+        <button type="submit">Submit Form</button>
+        </div>
+    </form>
+</body>
+
 </html>

@@ -1,0 +1,26 @@
+git init                          # If you haven’t already
+git remote add origin https://github.com/BigJasmine/Jasmine-Blog.git
+git branch -M main               # Rename default branch to 'main'
+git add .                        # Stage all files
+git commit -m "Initial commit"  # Commit your code
+git push -u origin main         # Push to GitHub
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/BigJasmine/Jasmine-Blog.git
+git push -u origin main
+
+git config --global user.name "Maryam Agbalaya"
+git config --global user.email "maryamabiodun01@gmail.com"
+
+
+git add . 
+git commit -m "Learnt working with CSS." 
+git push
+
+Alt + Z for word wrap
+ctrl + / for comment toggle
+Shift+Alt+F for indentation(code formatting)
