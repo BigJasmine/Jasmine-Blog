@@ -1,5 +1,5 @@
-﻿# Jasmine-Blog
-# Jasmine-Blog# : My Software Development Journey
+﻿# Software Development
+# Software Development# : My Software Development Journey
 
 This repository documents my progress through software development classes, including code samples, notes, and mini-projects.
 
@@ -29,3 +29,4 @@ This repository documents my progress through software development classes, incl
 ## 🚀 How to Use
 
 Feel free to explore, fork, or contribute. This repo is a living archive of my growth as a developer.
+
