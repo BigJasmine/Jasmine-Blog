@@ -1,0 +1,18 @@
+Cascading Style Sheet
+There are three types of CSS
+1. Inline CSS -It only affects the only html element it is attached to.
+2. Internal CSS
+3 Major CSS Selectors: Selectors are ways for CSS to affect a particular element or page. They are; 
+a) Element Selectors: Targeting a particular html element using the element name itself. It is best used when there are multiple instances of the same element and you want the styling to affect all of them.
+b) Class Selectors: This is an idenetification that can be used by two or more elements
+c) id Selectors: This is an identification that can only be used by one element
+3. External CSS
+i)Margin: It affects the spacing outside (around) the form (element). Creates space around an element (outside the border)
+ii) Padding: It affects the spacing inside (within) the form (element). Space inside an element between its content and border
+padding-top, padding-right, padding-bottom, padding-left
+iii)Border-radius: Makes corners rounded
+
+
+Components: They are building blocks
+Logo, Menu, Introduction, Image
+
