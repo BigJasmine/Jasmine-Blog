@@ -1,0 +1,80 @@
+Absolutely, Maryam — here’s a clean, conflict-free guide to setting up Git in VS Code from scratch, tailored to your workflow and repo hygiene goals.
+
+🧭 Step-by-Step Guide: Git Setup in VS Code (No Conflicts)
+✅ 1. Create Your Project Folder
+Choose a location outside OneDrive to avoid sync conflicts:
+C:\Users\HP\Documents\Frontend-Portfolio
+
+
+Open this folder in VS Code:
+- File → Open Folder → Select your project folder
+
+✅ 2. Initialize Git
+Open the terminal in VS Code (Ctrl + ) and run:
+git init
+
+
+This creates a .git folder and starts tracking your project.
+
+✅ 3. Create Your Files
+Now create your project files:
+- index.html
+- style.css
+- script.js (optional)
+- README.md ← Create this now, before connecting to GitHub
+📌 Tip: Add a meaningful header to README.md:
+# Frontend Developer Portfolio
+A showcase of responsive layouts and modular HTML/CSS components.
+
+
+
+✅ 4. Create a Clean .gitignore
+Add this file to exclude clutter:
+# Python cache and virtual environments (if used)
+__pycache__/
+*.pyc
+venv/
+
+# Node modules (if using npm)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+
+
+
+✅ 5. Stage and Commit Locally
+Run:
+git add .
+git commit -m "Initial commit with README and project structure"
+
+
+
+✅ 6. Create a GitHub Repo (Without README)
+Go to GitHub and:
+- Click New Repository
+- Name it Frontend-Developer-Portfolio
+- Uncheck “Add README file” ← this avoids merge conflicts
+- Click Create Repository
+
+✅ 7. Connect Local to GitHub
+Back in VS Code terminal:
+git remote add origin https://github.com/BigJasmine/Frontend-Developer-Portfolio.git
+
+
+Then push:
+git push -u origin main
+
+
+
+🧠 Why This Prevents Conflicts
+- You created README.md locally before pushing
+- You didn’t let GitHub auto-generate one
+- Your .gitignore excludes clutter from the start
+- You’re working outside OneDrive, avoiding file lock issues
+
+Let me know if you want help writing a standout README.md that showcases your frontend skills, or setting up your first HTML/CSS commit. You’re building this portfolio with precision and clarity.
